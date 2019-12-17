@@ -1,6 +1,6 @@
 module.exports = {
 	title: "InversifyJS 中文文档",
-	description: "",
+	description: "A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript",
 	configureWebpack: {
 		resolve: {
 			alias: {
@@ -12,7 +12,9 @@ module.exports = {
 	markdown: {
 		lineNumbers: true,
 		anchor: {
-			permalink: false
+			permalink: true, 
+			permalinkBefore: true, 
+			permalinkSymbol: '#'
 		},
 		extendMarkdown: md => {
 			// 使用更多的markdown-it插件
@@ -24,19 +26,10 @@ module.exports = {
 		"@vuepress/back-to-top",
 		"@vuepress/last-updated",
 		"@vuepress/nprogress",
-		"vuepress-plugin-smooth-scroll",
-		"@vuepress/medium-zoom",
-		[
-			"redirect",
-			{
-				// 提供多语言重定向功能
-				// 它会自动从 `/foo/bar/` 定向到 `/:locale/foo/bar/`，如果对应的页面存在
-				locales: true,
-				storage: true // 保存最后一次访问的结果到 `localStorage`，供下次重定向使用
-			}
-		]
+		"@vuepress/medium-zoom"
 	],
 	themeConfig: {
+		activeHeaderLinks: true,
 		displayAllHeaders: true, // 默认值：false
 		smoothScroll: true,
 		nav: [
@@ -63,6 +56,11 @@ module.exports = {
 			{
 				title: '基础',
 				path: '/routes/basics',
+				sidebarDepth: 2
+			},
+			{
+				title: '特性和API',
+				path: '/routes/features_api',
 				sidebarDepth: 2
 			}
 		],

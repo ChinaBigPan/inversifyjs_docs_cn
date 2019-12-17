@@ -19,7 +19,6 @@
     "markdown-it-anchor": "^5.2.5",
     "vuepress-plugin-copyright": "^1.0.2",
     "vuepress-plugin-medium-zoom": "^1.1.8",
-    "vuepress-plugin-redirect": "^1.2.1",
-    "vuepress-plugin-smooth-scroll": "^0.0.9"
+    "vuepress-plugin-redirect": "^1.2.1"
   }
 }
