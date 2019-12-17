@@ -1,0 +1,16 @@
+---
+home: true
+heroImage: /images/title.png
+heroText: InversifyJS
+tagline: A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript.
+actionText: 来看看 →
+actionLink: /routes/
+features:
+    - title: 强类型
+      details: 该库由TypeScript开发。TypeScript允许开发人员在开发过程中使用高效的开发工具和实践
+    - title: 通用性
+      details: 该库编译后的代码可运行在任何浏览器和Node.js环境，或者任何支持ECMAScrip5 (或更高版本) 的JavaScript引擎中
+    - title: 插件化
+      details: 该库不依赖其他框架，它的设计方式决定了它完全能够和主流框架和库(hapi/express/reack/backbone)集成运行
+footer: MIT Licensed | Developed by InversifyJS Group | Translated by 大笑
+---

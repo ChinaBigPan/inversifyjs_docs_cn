@@ -1,0 +1,25 @@
+{
+  "name": "vuepress_template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "GuoXiaopeng <xiaopeng15@staff.sina.com.cn>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.2.0",
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-medium-zoom": "^1.2.0",
+    "@vuepress/plugin-nprogress": "^1.2.0"
+  },
+  "dependencies": {
+    "markdown-it-anchor": "^5.2.5",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-medium-zoom": "^1.1.8",
+    "vuepress-plugin-redirect": "^1.2.1",
+    "vuepress-plugin-smooth-scroll": "^0.0.9"
+  }
+}
