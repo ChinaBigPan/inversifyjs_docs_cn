@@ -1,14 +1,14 @@
 module.exports = {
-	title: "Vuepress 译文文档模板",
+	title: "InversifyJS 中文文档",
 	description: "",
 	configureWebpack: {
 		resolve: {
 			alias: {
-				"@img": "/docs_cn/images/"
+				"@img": "/inversifyjs_docs_cn/images/"
 			}
 		}
 	},
-	base: "/docs_cn/",
+	base: "/inversifyjs_docs_cn/",
 	markdown: {
 		lineNumbers: true,
 		anchor: {
@@ -54,6 +54,16 @@ module.exports = {
 			    title: "简介",
 			    path: "/routes/",
 			    sidebarDepth: 2
+			},
+			{
+				title: '安装',
+				path: '/routes/installation',
+				sidebarDepth: 2
+			},
+			{
+				title: '基础',
+				path: '/routes/basics',
+				sidebarDepth: 2
 			}
 		],
 		lastUpdated: "上次更新",
