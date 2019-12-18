@@ -2,11 +2,7 @@ module.exports = {
 	title: "InversifyJS 中文文档",
 	description: "A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript",
 	configureWebpack: {
-		resolve: {
-			alias: {
-				"@img": "/inversifyjs_docs_cn/images/"
-			}
-		}
+		resolve: {}
 	},
 	base: "/inversifyjs_docs_cn/",
 	markdown: {

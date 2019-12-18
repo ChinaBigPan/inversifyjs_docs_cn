@@ -40,7 +40,7 @@ InversifyJS 需要TypeScript 的版本 2.0+，同时需要在`tsconfig`做出如
 如果您的环境对以上特性的支持性不好，请引入 `shim` 或 `polyfill`
 
 ::: warning ⚠️
-`reflect-metadata`的`polyfill`在您的整个应用中仅引入一次，因为`Reflect`对象是一个全局单例。更多细节请参考[这里](https://github.com/inversify/InversifyJS/issues/262#issuecomment-227593844)
+`reflect-metadata`的`polyfill`在您的整个应用中应该仅引入一次，因为`Reflect`对象是一个全局单例。更多细节请参考[这里](https://github.com/inversify/InversifyJS/issues/262#issuecomment-227593844)
 :::
 
 [这里](https://github.com/inversify/InversifyJS/blob/master/wiki/environment.md)展示了环境支持情况和`polyfill`，以及一些[基本示例](https://github.com/inversify/inversify-basic-example)以供学习。

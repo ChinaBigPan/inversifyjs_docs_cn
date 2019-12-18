@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/title.png
 heroText: InversifyJS
-tagline: 
+tagline: Version 5.0.1
 actionText: 来看看 →
 actionLink: /routes/installation
 features:
