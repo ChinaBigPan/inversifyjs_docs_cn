@@ -4,7 +4,7 @@ heroImage: /images/title.png
 heroText: InversifyJS
 tagline: A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript
 actionText: v 5.0.1 →
-actionLink: /routes/installation
+actionLink: /routes/basic/
 features:
     - title: 强类型
       details: 该库由TypeScript开发。TypeScript允许开发人员在开发过程中使用高效的开发工具和实践

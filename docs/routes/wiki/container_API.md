@@ -199,7 +199,7 @@ expect(es[1].goodbye).to.eql("adios");
 
 ## container.isBound(serviceIdentifier: ServiceIdentifier)
 
-当我们想要检查一下容器是否已经注册了绑定的时候，请使用`isBound`方法。
+当我们想要检查一下容器是否已经注册了传入的绑定的时候，请使用`isBound`方法。
 
 ```ts
 interface Warrior {}
@@ -229,3 +229,107 @@ expect(container.isBound(katanaId)).to.eql(false);
 expect(container.isBound(katanaSymbol)).to.eql(false);
 ```
 
+## container.isBoundNamed(serviceIdentifier: ServiceIdentifier, named: string)
+
+您可以使用`isBoundNamed`方法来检查容器是否已经绑定了传入的具名绑定。
+
+```ts
+const zero = "Zero";
+const invalidDivisor = "InvalidDivisor";
+const validDivisor = "ValidDivisor";
+let container = new Container();
+
+expect(container.isBound(zero)).to.eql(false);
+container.bind<number>(zero).toConstantValue(0);
+expect(container.isBound(zero)).to.eql(true);
+
+container.unbindAll();
+expect(container.isBound(zero)).to.eql(false);
+container.bind<number>(zero).toConstantValue(0).whenTargetNamed(invalidDivisor);
+expect(container.isBoundNamed(zero, invalidDivisor)).to.eql(true);
+expect(container.isBoundNamed(zero, validDivisor)).to.eql(false);
+
+container.bind<number>(zero).toConstantValue(1).whenTargetNamed(validDivisor);
+expect(container.isBoundNamed(zero, invalidDivisor)).to.eql(true);
+expect(container.isBoundNamed(zero, validDivisor)).to.eql(true);
+```
+
+## container.isBoundTagged(serviceIdentifier: ServiceIdentifier, key: string, value: any)
+
+您可以使用`isBoundTagged`方法来检查容器是否已经绑定了传入的带标签绑定。
+
+```ts
+const zero = "Zero";
+const isValidDivisor = "IsValidDivisor";
+let container = new Container();
+
+expect(container.isBound(zero)).to.eql(false);
+container.bind<number>(zero).toConstantValue(0);
+expect(container.isBound(zero)).to.eql(true);
+
+container.unbindAll();
+expect(container.isBound(zero)).to.eql(false);
+container.bind<number>(zero).toConstantValue(0).whenTargetTagged(isValidDivisor, false);
+expect(container.isBoundTagged(zero, isValidDivisor, false)).to.eql(true);
+expect(container.isBoundTagged(zero, isValidDivisor, true)).to.eql(false);
+
+container.bind<number>(zero).toConstantValue(1).whenTargetTagged(isValidDivisor, true);
+expect(container.isBoundTagged(zero, isValidDivisor, false)).to.eql(true);
+expect(container.isBoundTagged(zero, isValidDivisor, true)).to.eql(true);
+```
+
+## container.rebind(serviceIdentifier: ServiceIdentifier)
+
+您可以使用`rebind`方法来用传入的服务标识符替换掉所有现有的绑定。该方法会返回一个`BindingToSyntax`实例，从而方便您创建一个替代绑定。
+
+```ts
+let TYPES = {
+    someType: "someType"
+};
+
+let container = new Container();
+container.bind<number>(TYPES.someType).toConstantValue(1);
+container.bind<number>(TYPES.someType).toConstantValue(2);
+
+let values1 = container.getAll(TYPES.someType);
+expect(values1[0]).to.eq(1);
+expect(values1[1]).to.eq(2);
+
+container.rebind<number>(TYPES.someType).toConstantValue(3);
+let values2 = container.getAll(TYPES.someType);
+expect(values2[0]).to.eq(3);
+expect(values2[1]).to.eq(undefined);
+```
+
+## container.resolve(constructor: Newable)
+
+该方法和`container.get<T>(serviceIdentifier: ServiceIdentifier<T>)`相似，但它允许用户在未声明绑定的情况下创建实例：
+
+```ts
+@injectable()
+class Katana {
+    public hit() {
+        return "cut!";
+    }
+}
+
+@injectable()
+class Ninja implements Ninja {
+    public katana: Katana;
+    public constructor(katana: Katana) {
+        this.katana = katana;
+    }
+    public fight() { return this.katana.hit(); }
+}
+
+const container = new Container();
+container.bind(Katana).toSelf();
+
+const tryGet = () => container.get(Ninja);
+expect(tryGet).to.throw("No matching bindings found for serviceIdentifier: Ninja");
+
+const ninja = container.resolve(Ninja);
+expect(ninja.fight()).to.eql("cut!");
+```
+
+请注意：它仅允许跳过在依赖的**根元素**一级的声明。所有的子依赖项（例如前面示例中的`Katana`）的绑定仍需要声明。

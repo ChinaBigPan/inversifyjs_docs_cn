@@ -1,5 +1,6 @@
 ---
 title: 简介
+# sidebar: "auto"
 ---
 
 ## 关于
