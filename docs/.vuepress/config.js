@@ -11,13 +11,15 @@ function getWikiSideBar() {
 		'support_for_classes',
 		'support_for_Symbols',
 		'container_api',
-		'declaring_container_modules'
+		'declaring_container_modules',
+		'container_snapshots',
+		'controlling_the_scope_of_the_dependencies'
 	]
 }
 
 module.exports = {
 	title: "InversifyJS 中文文档",
-	description: "A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript",
+	description: "基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)库",
 	configureWebpack: {
 		resolve: {}
 	},

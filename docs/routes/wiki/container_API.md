@@ -10,7 +10,7 @@ InversifyJS 容器提供了一些便利方法来帮助开发者处理**多重注
 
 ### defaultScope
 
-默认的作用域仅仅是`暂时的`，您可以在声明绑定的时候更改类型的作用域。
+默认采用的是`瞬态(transient)`作用域，您可以在声明绑定的时候更改类型模式。
 
 ```ts
 container.bind<Warrior>(TYPES.Warrior).to(Ninja).inSingletonScope();
