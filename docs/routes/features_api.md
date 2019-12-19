@@ -2,8 +2,11 @@
 title: 特性和API
 ---
 
-[对类的支持](/routes/wiki/support_for_classes.md)
+## 相关的文档：
 
-[对Symbol的支持](/routes/wiki/support_for_Symbols.md)
+1. [对类的支持](/routes/wiki/support_for_classes.html)
 
+2. [对Symbol的支持](/routes/wiki/support_for_Symbols.html)
+
+3. [容器API](/routes/wiki/container_API.html)
 

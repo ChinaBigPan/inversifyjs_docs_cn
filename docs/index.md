@@ -2,8 +2,8 @@
 home: true
 heroImage: /images/title.png
 heroText: InversifyJS
-tagline: Version 5.0.1
-actionText: 来看看 →
+tagline: A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript
+actionText: v 5.0.1 →
 actionLink: /routes/installation
 features:
     - title: 强类型

@@ -6,24 +6,8 @@ module.exports = {
 	},
 	base: "/inversifyjs_docs_cn/",
 	markdown: {
-		lineNumbers: true,
-		anchor: {
-			permalink: true, 
-			permalinkBefore: true, 
-			permalinkSymbol: '#'
-		},
-		extendMarkdown: md => {
-			// 使用更多的markdown-it插件
-			md.use(require("markdown-it-anchor"));
-		}
+		lineNumbers: true
 	},
-	plugins: [
-		"@vuepress/active-header-links",
-		"@vuepress/back-to-top",
-		"@vuepress/last-updated",
-		"@vuepress/nprogress",
-		"@vuepress/medium-zoom"
-	],
 	themeConfig: {
 		activeHeaderLinks: true,
 		displayAllHeaders: true, // 默认值：false
@@ -57,7 +41,21 @@ module.exports = {
 			{
 				title: '特性和API',
 				path: '/routes/features_api',
-				sidebarDepth: 2
+				sidebarDepth: 0,
+				children: [
+					{
+						title: '对类的支持',
+						path: '/routes/wiki/support_for_classes.html',
+					},
+					{
+						title: '对Symbol的支持',
+						path: '/routes/wiki/support_for_Symbols.html',
+					},
+					{
+						title: '容器API',
+						path: '/routes/wiki/container_API.html'
+					}				
+				]
 			}
 		],
 		lastUpdated: "上次更新",
