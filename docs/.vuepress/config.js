@@ -21,7 +21,7 @@ module.exports = {
 	configureWebpack: {
 		resolve: {}
 	},
-	base: "/inversifyjs_docs_cn/",
+	base: "/InversifyJS_docs_zh_CN/",
 	markdown: {
 		lineNumbers: true
 	},
