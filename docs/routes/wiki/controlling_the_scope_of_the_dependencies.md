@@ -1,8 +1,8 @@
 ---
-title: 控制依赖项的模式
+title: 控制依赖项的作用域
 ---
 
-# 控制依赖项的模式
+# 控制依赖项的作用域
 
 InversifyJS 默认使用 `瞬态(transient)`模式，但您仍旧可以使用`单例(singleton)`或`请求(request)`作用域模式。
 
@@ -50,6 +50,10 @@ interface BindingToSyntax<T> {
 
 默认使用的是`inTransientScope`，我们可以选择绑定类型的作用域。`toConstantValue`除外，它固定使用`inSingletonScope`。
 
+当我们首次调用`container.get`方法，以及使用`to`、`toSelf`或`toDynamicValue`时，InversifyJS容器将尝试使用构造器或动态值工厂方法来生成对象实例或值。如果作用域设置为`inSingletonScope`，那么值会被缓存。当我们再次调用`container.get`方法来查询同一个ID时，如果已经是`inSingletonScope`，则Inversify 将会从缓存中读取值。
 
+请注意，类可以具有一些依赖项，而动态值可以通过当前上下文访问其他类型。这些依赖可能是也可能不是独立于它们各自的组合树中的父对象所选作用域的单例。
+
+### 注入`函数`的绑定
 
 
