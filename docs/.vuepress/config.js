@@ -13,7 +13,13 @@ function getWikiSideBar() {
 		'container_api',
 		'declaring_container_modules',
 		'container_snapshots',
-		'controlling_the_scope_of_the_dependencies'
+		'controlling_the_scope_of_the_dependencies',
+		'optional_dependencies',
+		'injecting_a_constant_or_dynamic_value',
+		'injecting_a_class_constructor',
+		'injecting_a_factory',
+		'auto_factory',
+		'injecting_a_provider'
 	]
 }
 
