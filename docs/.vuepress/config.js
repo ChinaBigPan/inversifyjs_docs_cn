@@ -19,7 +19,9 @@ function getWikiSideBar() {
 		'injecting_a_class_constructor',
 		'injecting_a_factory',
 		'auto_factory',
-		'injecting_a_provider'
+		'injecting_a_provider',
+		'activation_handler',
+		'post_construct_decorator'
 	]
 }
 
