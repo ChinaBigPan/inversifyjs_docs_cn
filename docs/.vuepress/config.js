@@ -22,7 +22,8 @@ function getWikiSideBar() {
 		'injecting_a_provider',
 		'activation_handler',
 		'post_construct_decorator',
-		'middleware'
+		'middleware',
+		'multi-injection'
 	]
 }
 
