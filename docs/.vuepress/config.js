@@ -23,7 +23,11 @@ function getWikiSideBar() {
 		'activation_handler',
 		'post_construct_decorator',
 		'middleware',
-		'multi-injection'
+		'multi-injection',
+		'tagged_bindings',
+		'create_your_own_tag_decorators',
+		'named_bindings',
+		'default_targets'
 	]
 }
 
