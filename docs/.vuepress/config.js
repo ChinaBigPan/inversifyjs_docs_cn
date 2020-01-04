@@ -27,7 +27,12 @@ function getWikiSideBar() {
 		'tagged_bindings',
 		'create_your_own_tag_decorators',
 		'named_bindings',
-		'default_targets'
+		'default_targets',
+		'hierarchical_di',
+		'contextual_bindings',
+		'property_injection',
+		'circular_dependencies',
+		'inheritance'
 	]
 }
 

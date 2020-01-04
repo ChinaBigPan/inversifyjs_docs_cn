@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/title.png
 heroText: InversifyJS
-tagline: 基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)库
+tagline: 短小精干的JavaScript和Node.js控制反转(IoC)库，由TypeScript开发
 actionText: v 5.0.1 →
 actionLink: /routes/basic/
 features:
