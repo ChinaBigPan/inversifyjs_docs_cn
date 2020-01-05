@@ -37,6 +37,13 @@ function getWikiSideBar() {
 	]
 }
 
+function getEcoSystemSideBar() {
+	return [
+		'',
+		'utilities'
+	]
+}
+
 module.exports = {
 	title: "InversifyJS 中文文档",
 	description: "基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)库",
@@ -61,13 +68,18 @@ module.exports = {
 				link: "/routes/wiki/"
 			},
 			{
+				text: '生态系统',
+				link: "/routes/ecosystem/"
+			},
+			{
 			    text: "Github",
 			    link: "https://github.com/inversify/InversifyJS/"
 			}
 		],
 		sidebar: {
 			'/routes/basic/': getBasicSideBar(),
-			'/routes/wiki/': getWikiSideBar()
+			'/routes/wiki/': getWikiSideBar(),
+			'/routes/ecosystem/': getEcoSystemSideBar()
 		},
 		lastUpdated: "上次更新",
 		repo: ""
