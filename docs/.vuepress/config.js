@@ -8,7 +8,7 @@ function getBasicSideBar() {
 
 function getWikiSideBar() {
 	return [
-		// 'index',
+		'',
 		'support_for_classes',
 		'support_for_Symbols',
 		'container_api',
