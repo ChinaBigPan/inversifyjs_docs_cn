@@ -1,8 +1,11 @@
 ---
 title: 注入Provider（异步工厂）
+sidebarDepth: 2
 ---
 
 # 注入Provider（异步工厂）
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/provider_injection.md)
 
 将抽象类绑定到Provider。Provider是一个异步工厂，这在处理异步I/O操作时非常有用。
 

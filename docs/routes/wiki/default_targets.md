@@ -4,6 +4,8 @@ title: 默认target
 
 # whenTargetIsDefault
 
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/default_targets.md)
+
 当传入的服务标识符具有多个绑定时，我们可以使用下面的方法来处理潜在的`AMBIGUOUS_MATCH`错误：
 
 - 具名绑定(Named bindings)

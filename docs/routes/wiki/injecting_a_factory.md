@@ -1,6 +1,11 @@
 ---
 title: 注入工厂方法
+sidebarDepth: 2
 ---
+
+# 注入工厂方法
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/factory_injection.md) 
 
 绑定一个抽象类至用户定义的工厂方法：
 

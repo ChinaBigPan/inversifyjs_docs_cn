@@ -1,8 +1,11 @@
 ---
 title: 控制依赖项的作用域
+sidebarDepth: 2
 ---
 
 # 控制依赖项的作用域
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/scope.md)
 
 InversifyJS 默认使用 `瞬态(transient)`模式，但您仍旧可以使用`单例(singleton)`或`请求(request)`作用域模式。
 

@@ -9,4 +9,5 @@ export default ({
     // ...做一些其他的应用级别的优化
     // colorConsole('primary', 'options', options);
     // colorConsole('coral', 'router', router);
+    colorConsole('primary', 'Translated By 大笑😄', 'Thanks');
   }

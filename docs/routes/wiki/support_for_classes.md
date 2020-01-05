@@ -1,8 +1,11 @@
 ---
 title: 对类的支持
+sidebarDepth: 2
 ---
 
 # 对类的支持
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/classes_as_id.md)
 
 InversifyJS 允许您的类直接依赖其他类。当您想要这样做时，请使用`@injectable`装饰器，无需使用`@inject`装饰器。
 

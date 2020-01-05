@@ -1,8 +1,11 @@
 ---
-title: 注入一个类构造器
+title: 注入类构造器
+sidebarDepth: 2
 ---
 
-# 注入一个类构造器
+# 注入类构造器
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/constructor_injection.md)
 
 InversifyJS 支持构造函数的注入，允许在创建注入对象时传递抽象或具体类的实例。
 

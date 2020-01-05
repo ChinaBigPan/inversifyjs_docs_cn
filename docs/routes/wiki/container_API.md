@@ -1,6 +1,9 @@
 ---
 title: 容器API
+sidebarDepth: 2
 ---
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/container_api.md)
 
 # 容器API
 

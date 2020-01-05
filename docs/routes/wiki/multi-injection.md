@@ -1,8 +1,11 @@
 ---
 title: 多重注入
+sidebarDepth: 2
 ---
 
 # 多重注入
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/multi_injection.md)
 
 当有两个以上的具体类型绑定了一个抽象时，我们可以使用多重注入(multi-injection)。多亏有`@multiInject`装饰器，我们才能够将`Weapon`数组通过`Ninja`类的构造器进行注入：
 

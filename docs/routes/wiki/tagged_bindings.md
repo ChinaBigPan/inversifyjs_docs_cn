@@ -1,8 +1,11 @@
 ---
-title: 带标签的绑定 
+title: 带标签的绑定
+sidebarDepth: 2
 ---
 
 # 带标签的绑定
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/tagged_bindings.md)
 
 我们可以通过为绑定设置标签来修复`AMBIGUOUS_MATCH`错误。该错误的产生原因是：两个以上的具体类被绑定到一个抽象。注意`Ninja`类的构造函数参数是如何使用`@tagged`装饰器修饰的：
 

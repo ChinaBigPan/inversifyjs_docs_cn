@@ -1,8 +1,11 @@
 ---
 title: 自定义标签装饰器
+sidebarDepth: 2
 ---
 
 # 自定义标签装饰器
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/custom_tag_decorators.md)
 
 创建你自己的装饰器很简单：
 

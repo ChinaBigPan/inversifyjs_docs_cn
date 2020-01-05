@@ -1,8 +1,11 @@
 ---
 title: 活性句柄
+sidebarDepth: 2
 ---
 
 # 活性句柄
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/activation_handler.md)
 
 将活性句柄作为类型添加是可行的。活性句柄的调用时机是在依赖解析之后，添加到缓存(如果是单例模式)和注入之前。这对于实现未知依赖监控(如缓存和日志)大有其用。下面的示例展示了如何使用[Proxy](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy)拦截依赖项(`Katana`)的其中一个方法(的使用)：
 

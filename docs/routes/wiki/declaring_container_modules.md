@@ -4,6 +4,8 @@ title: 声明容器模块
 
 # 声明容器模块
 
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/container_modules.md)
+
 在制作大型应用时，太多的绑定毫无疑问会提升项目的复杂度。容器模块化有助于管理众多的绑定。
 
 ## 同步容器模块

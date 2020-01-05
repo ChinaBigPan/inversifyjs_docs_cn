@@ -1,10 +1,13 @@
 ---
 title: 具名绑定
+sidebarDepth: 2
 ---
 
 # 具名绑定
 
-:::
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/named_bindings.md)
+
+::: tip
 具名绑定和带标签绑定类似
 :::
 

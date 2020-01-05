@@ -1,8 +1,11 @@
 ---
 title: 中间件
+sidebarDepth: 2
 ---
 
 # 中间件
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/middleware.md)
 
 InversifyJS 在解析依赖项之前会执行3个强制操作：
 

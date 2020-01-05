@@ -1,8 +1,11 @@
 ---
-title: 注入一个固定/动态值
+title: 注入固定/动态值
+sidebarDepth: 2
 ---
 
-# 注入一个固定/动态值
+# 注入固定/动态值
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/value_injection.md)
 
 将抽象绑定为固定值：
 

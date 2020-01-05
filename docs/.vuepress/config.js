@@ -8,6 +8,7 @@ function getBasicSideBar() {
 
 function getWikiSideBar() {
 	return [
+		// 'index',
 		'support_for_classes',
 		'support_for_Symbols',
 		'container_api',
@@ -48,7 +49,7 @@ module.exports = {
 	},
 	themeConfig: {
 		activeHeaderLinks: true,
-		displayAllHeaders: true, // 默认值：false
+		displayAllHeaders: false, // 默认值：false
 		smoothScroll: true,
 		nav: [
 			{

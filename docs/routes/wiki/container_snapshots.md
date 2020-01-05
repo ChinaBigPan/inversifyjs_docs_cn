@@ -1,8 +1,11 @@
 ---
 title: 容器快照
+sidebarDepth: 2
 ---
 
 # 容器快照
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/container_snapshots.md)
 
 声明容器快照(container snapshot)是一个非常有用的特性。它可以帮助您轻松编写单元测试(unit test)。
 

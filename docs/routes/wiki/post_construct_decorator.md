@@ -1,8 +1,11 @@
 ---
 title: postConstruct 装饰器
+sidebarDepth: 2
 ---
 
 # postConstruct 装饰器
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/post_construct.md)
 
 我们向类方法添加`@postConstruct`装饰器是可行的。该装饰器会在对象初始化后和任何句柄激活前运行。在调用构造函数但组件尚未初始化，或者在希望在构造函数调用后执行初始化逻辑的情况下，就是它大显身手的时候。
 

@@ -1,8 +1,11 @@
 ---
 title: 可选依赖
+sidebarDepth: 2
 ---
 
 # 可选依赖
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/optional_dependencies.md)
 
 我们可以使用`@optional()`装饰器声明一个可选依赖:
 

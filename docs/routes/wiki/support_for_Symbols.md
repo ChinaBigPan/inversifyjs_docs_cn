@@ -1,8 +1,11 @@
 ---
 title: 对Symbol的支持
+sidebarDepth: 2
 ---
 
 # 对Symbol的支持
+
+[原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/symbols_as_id.md)
 
 在大型应用中，使用字符串作为 InversifyJS 注入类型的标识符可能会导致命名冲突。我们支持并真心建议您使用[Symbol](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Symbol)而不是字符串。 
 
