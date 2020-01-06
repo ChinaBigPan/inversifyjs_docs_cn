@@ -40,7 +40,8 @@ function getWikiSideBar() {
 function getEcoSystemSideBar() {
 	return [
 		'',
-		'utilities'
+		'utilities',
+		'inversify-binding-decorators'
 	]
 }
 
