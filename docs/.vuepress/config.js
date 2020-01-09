@@ -43,7 +43,8 @@ function getEcoSystemSideBar() {
 		'utilities',
 		'inversify-binding-decorators',
 		'inversify-inject-decorators',
-		'inversify-express-utils'
+		'inversify-express-utils',
+		'inversify-restify-utils'
 	]
 }
 
