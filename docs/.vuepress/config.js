@@ -1,6 +1,6 @@
 function getBasicSideBar() {
 	return [
-		'index',
+		'',
 		'installation',
 		'basics',
 		'thanks'
@@ -9,7 +9,7 @@ function getBasicSideBar() {
 
 function getWikiSideBar() {
 	return [
-		'index',
+		'',
 		'support_for_classes',
 		'support_for_Symbols',
 		'container_api',
@@ -23,7 +23,7 @@ function getWikiSideBar() {
 		'auto_factory',
 		'injecting_a_provider',
 		'activation_handler',
-		'post_contstruct_decorator',
+		'post_construct_decorator',
 		'middleware',
 		'multi-injection',
 		'tagged_bindings',
