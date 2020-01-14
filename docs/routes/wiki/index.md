@@ -20,7 +20,7 @@ sidebarDepth: 2
 | [控制依赖项的作用域](/routes/wiki/controlling_the_scope_of_the_dependencies.html)  | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/scope.md) |
 | [可选依赖](/routes/wiki/optional_dependencies.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/optional_dependencies.md) |
 | [注入固定/动态值](/routes/wiki/injecting_a_constant_or_dynamic_value.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/value_injection.md) |
-| [注入类构造器](/routes/wiki/injecting_a_class_contsructor.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/constructor_injection.md) |
+| [注入类构造器](/routes/wiki/injecting_a_class_contstructor.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/constructor_injection.md) |
 | [注入工厂方法](/routes/wiki/injecting_a_factory.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/factory_injection.md) |
 | [自动生成工厂方法](/routes/wiki/auto_factory.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/auto_factory.md) |
 | [注入Provider(异步工厂)](/routes/wiki/injecting_a_provider.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/provider_injection.md) |
