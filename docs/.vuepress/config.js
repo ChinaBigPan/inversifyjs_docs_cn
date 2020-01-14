@@ -2,7 +2,8 @@ function getBasicSideBar() {
 	return [
 		'',
 		'installation',
-		'basics'
+		'basics',
+		'thanks'
 	]
 }
 
@@ -37,18 +38,6 @@ function getWikiSideBar() {
 	]
 }
 
-function getEcoSystemSideBar() {
-	return [
-		'',
-		'utilities',
-		'inversify-binding-decorators',
-		'inversify-inject-decorators',
-		'inversify-express-utils',
-		'inversify-restify-utils',
-		'inversify-vanillajs-helpers'
-	]
-}
-
 module.exports = {
 	title: "InversifyJS 中文文档",
 	description: "基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)库",
@@ -74,7 +63,12 @@ module.exports = {
 			},
 			{
 				text: '生态系统',
-				link: "/routes/ecosystem/"
+				items: [
+					{ text: '工具 utils', link: "/routes/ecosystem/utilities/utilities" },
+					{ text: '中间件 middleware', link: '/routes/ecosystem/middleware/middleware' },
+					{ text: '开发工具 devtools', link: '/routes/ecosystem/development-tools/development-tools' },
+					{ text: '示例 examples', link: '/routes/ecosystem/examples/examples' }
+				]
 			},
 			{
 			    text: "Github",
@@ -84,7 +78,35 @@ module.exports = {
 		sidebar: {
 			'/routes/basic/': getBasicSideBar(),
 			'/routes/wiki/': getWikiSideBar(),
-			'/routes/ecosystem/': getEcoSystemSideBar()
+			'/routes/ecosystem/utilities/': [
+				'utilities',
+				'inversify-binding-decorators',
+				'inversify-inject-decorators',
+				'inversify-express-utils',
+				'inversify-restify-utils',
+				'inversify-vanillajs-helpers',
+				'inversify-tracer',
+				'inversify-components',
+				'inversify-token',
+				'inversify-socket-utils',
+				'inversify-koa-utils'
+			],
+			'/routes/ecosystem/middleware/': [
+				'middleware',
+				'inversify-logger-middleware'	
+			],
+			'/routes/ecosystem/development-tools/': [
+				'development-tools',
+				'inversify-devtools',
+				'inversify-chrome-devtools'
+			],
+			'/routes/ecosystem/examples/': [
+				'examples',
+				'Basic',
+				'Express',
+				'Hapi',
+				'inversifyjs-binding-decorators'
+			]
 		},
 		lastUpdated: "上次更新",
 		repo: ""
