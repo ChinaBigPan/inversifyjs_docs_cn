@@ -24,7 +24,7 @@ sidebarDepth: 2
 | [注入工厂方法](/routes/wiki/injecting_a_factory.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/factory_injection.md) |
 | [自动生成工厂方法](/routes/wiki/auto_factory.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/auto_factory.md) |
 | [注入Provider(异步工厂)](/routes/wiki/injecting_a_provider.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/provider_injection.md) |
-| [活性句柄](/routes/wiki/activation_handler) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/activation_handler.md) |
+| [活性句柄](/routes/wiki/activation_handler.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/activation_handler.md) |
 | [postConstructor装饰器](/routes/wiki/post_contstruct_decorator.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/post_construct.md) |
 | [中间件](/routes/wiki/middleware.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/middleware.md) |
 | [多重注入](/routes/wiki/multi-injection.html) | [原文链接](https://github.com/inversify/InversifyJS/blob/master/wiki/multi_injection.md) |

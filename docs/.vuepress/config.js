@@ -23,7 +23,7 @@ function getWikiSideBar() {
 		'auto_factory',
 		'injecting_a_provider',
 		'activation_handler',
-		'post_construct_decorator',
+		'post_contstruct_decorator',
 		'middleware',
 		'multi-injection',
 		'tagged_bindings',
