@@ -14,10 +14,10 @@
     <tbody>
         <tr>
             <td width='220'>
-                <img src='./docs/.vuepress/public/images/paidWechatFive.jpeg'/>
+                <img src='https://chinabigpan.github.io/inversifyjs_docs_cn/images/paidWechatFive.jpeg'/>
             </td>
             <td width='200'>
-                <img src='./docs/.vuepress/public/images/paidAlipayFive.jpeg'/>
+                <img src='https://chinabigpan.github.io/inversifyjs_docs_cn/images/paidAlipayFive.jpeg'/>
             </td>
         </tr>
     </tbody>
