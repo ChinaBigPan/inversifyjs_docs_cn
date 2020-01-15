@@ -6,7 +6,7 @@ tagline: 基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)
 actionText: v 5.0.1 →
 actionLink: /routes/basic/
 meta:
-  - name: desctription
+  - name: description
     content: 基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)库
   - name: keywords
     content: InversifyJS, inversify, IoC, 控制反转, InversifyOfControl, 依赖注入, DI, Dependency Injection, TypeScript, Nodejs, 中文文档
