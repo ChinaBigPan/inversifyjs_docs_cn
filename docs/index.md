@@ -5,6 +5,11 @@ heroText: InversifyJS
 tagline: 基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)库
 actionText: v 5.0.1 →
 actionLink: /routes/basic/
+meta:
+  - name: desctription
+    content: 基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)库
+  - name: keywords
+    content: InversifyJS, inversify, IoC, 控制反转, InversifyOfControl, 依赖注入, DI, Dependency Injection, TypeScript, Nodejs, 中文文档
 features:
     - title: 强类型
       details: 该库由TypeScript开发。TypeScript允许开发人员在开发过程中使用高效的开发工具和实践
