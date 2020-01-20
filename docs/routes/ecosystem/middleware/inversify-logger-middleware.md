@@ -2,7 +2,7 @@
 
 为InversifyJS开发的基本日志中间件。
 
-![image](/images/inversify-logger-middleware.png);
+![image](/inversifyjs_docs_cn/images/inversify-logger-middleware.png);
 
 ## 安装
 

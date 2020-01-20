@@ -2,7 +2,7 @@
 
 由React/Redux开发的InversifyJS浏览器开发工具。
 
-![image](/images/inversify-devtools.png)
+![image](/inversifyjs_docs_cn/images/inversify-devtools.png)
 
 ## 如何使用？
 

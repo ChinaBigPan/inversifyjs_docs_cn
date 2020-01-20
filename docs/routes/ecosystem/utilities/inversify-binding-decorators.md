@@ -4,7 +4,7 @@
 
 允许开发者使用ES2016装饰器来声明InversifyJS绑定的工具:
 
-![image](/images/inversify-binding-decorators-1.png)
+![image](/inversifyjs_docs_cn/images/inversify-binding-decorators-1.png)
 
 ## 安装
 
