@@ -2,3 +2,5 @@ node_modules
 docs
 deploy.sh
 .travis.yml
+
+.vuepress/dist
