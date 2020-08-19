@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/title.png
+heroImage: /images/logo.png
 heroText: InversifyJS
 tagline: 基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)库
 actionText: v 5.0.1 →
@@ -13,7 +13,7 @@ meta:
   - name: feversion
     content: v 5.0.1
   - name: fetags
-    content: "[{'kind': 'node', 'text': 'Node.js'}, { 'kind': 'js', 'text': 'IOC' }]"
+    content: "[{'kind': 'iconNodejs', 'text': 'Node.js'}, { 'kind': 'icontypescript', 'text': 'IOC' }]"
 features:
     - title: 强类型
       details: 该库由TypeScript开发。TypeScript允许开发人员在开发过程中使用高效的开发工具和实践

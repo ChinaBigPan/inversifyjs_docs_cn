@@ -39,7 +39,7 @@ function getWikiSideBar() {
 }
 
 module.exports = {
-	title: "InversifyJS 中文文档",
+	title: "InversifyJS",
 	description: "基于TypeScript的短小精干的JavaScript和Node.js控制反转(IoC)库",
 	configureWebpack: {
 		resolve: {}
