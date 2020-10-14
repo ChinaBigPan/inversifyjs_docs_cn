@@ -2,7 +2,7 @@
   "name": "inversifyjs_docs_cn",
   "version": "1.1.2",
   "main": "index.js",
-  "author": "GuoXiaopeng <xiaopeng15@staff.sina.com.cn>",
+  "author": "大笑 <daguogxp@qq.com>",
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",

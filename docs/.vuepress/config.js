@@ -52,7 +52,12 @@ module.exports = {
 		activeHeaderLinks: true,
 		displayAllHeaders: false, // 默认值：false
 		smoothScroll: true,
+		logo: "/images/logo.png",
 		nav: [
+			{
+                text: "大笑文档",
+                link: "http://www.febeacon.com"
+            },
 			{
 				text: "首页",
 				link: "/routes/basic/"
@@ -69,10 +74,6 @@ module.exports = {
 					{ text: '开发工具 devtools', link: '/routes/ecosystem/development-tools/development-tools' },
 					{ text: '示例 examples', link: '/routes/ecosystem/examples/examples' }
 				]
-			},
-			{
-			    text: "Github",
-			    link: "https://github.com/inversify/InversifyJS/"
 			}
 		],
 		sidebar: {

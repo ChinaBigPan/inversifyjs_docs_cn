@@ -3,6 +3,8 @@ title: 简介
 # sidebar: "auto"
 ---
 
+<febeacon />
+
 ## 关于
 
 InversifyJS 是一个轻量级的控制反转（IoC, Inversion of Control）容器，专为 TypeScript 和 JavaScript 而生。IoC 容器使用类构造函数来标识并注入其依赖项。InversifyJS 的 API 非常易用，给与开发者最好的 OOP 和 IoC 实践。
